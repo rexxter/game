@@ -3,7 +3,8 @@ using namespace std;
 int main()
 {
 int i;
-printf("enter 1 for entry and 0 for otherwise");
+  point1:
+printf("enter 1 for member entry for game and 0 for otherwise");
 scanf("%d",&i);
 if(i=1)
 {
@@ -19,4 +20,8 @@ printf("enter sex");
 scanf("%c",&sex);
 printf("enter power");
 scanf("%c".&power);
-
+  goto point1;
+}
+  if(i=0)
+  {
+  
