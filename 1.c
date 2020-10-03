@@ -24,11 +24,14 @@ scanf("%c".&power);
 }
   if(i=0)
   {
+
     printf("name=&s",name[]);
+
+     printf("name=&s",name[]);
+
     printf("age=&d",age);
     printf("sex%c",sex);
     printf("power%c",power);
   }
   return 0;
 }
-  
